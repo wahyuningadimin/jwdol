@@ -1,8 +1,8 @@
 let now= new Date();
-let date= new Date("2020-01-01");
+let current= new Date(24 * 3600 * 1000);
 
 console.log(now);
-console.log(date);
+console.log(current);
 
 console.log(now.getFullYear());
 console.log(now.getDate());
